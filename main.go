@@ -1,9 +1,7 @@
 package main
 
-import (
-	"concurrency/zeroevenodd"
-)
+import "concurrency/h2o"
 
 func main(){
-	zeroevenodd.Start()
+	h2o.Start()
 }
