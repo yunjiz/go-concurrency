@@ -1,9 +1,9 @@
 package main
 
 import (
-	"concurrency/printfoobar"
+	"concurrency/zeroevenodd"
 )
 
 func main(){
-	printfoobar.Start()
+	zeroevenodd.Start()
 }
