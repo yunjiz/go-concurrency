@@ -1,9 +1,9 @@
 package main
 
 import (
-	"concurrency/boundedblockingqueue"
+	"concurrency/fizzbuzz"
 )
 
 func main(){
-	boundedblockingqueue.Start()
+	fizzbuzz.Start()
 }
