@@ -1,7 +1,9 @@
 package main
 
-import "concurrency/h2o"
+import (
+	"concurrency/boundedblockingqueue"
+)
 
 func main(){
-	h2o.Start()
+	boundedblockingqueue.Start()
 }
