@@ -1,9 +1,9 @@
 package main
 
 import (
-	"concurrency/fizzbuzz"
+	"concurrency/dining"
 )
 
 func main(){
-	fizzbuzz.Start()
+	dining.Start()
 }
